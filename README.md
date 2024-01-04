@@ -14,7 +14,7 @@
 - переключаемся на пользователя kostyuk,  
 - просматриваем домашний каталог пользователя cryptouser под пользователем kostyuk и видим, что данные в каталоге зашифрованы  
 
-![image](https://github.com/denniskostyuk/security1/blob/main/task-1.png)
+![image](https://github.com/denniskostyuk/hostprotection/blob/main/task-1.png)
 
 ## Задание 2
 Установите поддержку LUKS.  
