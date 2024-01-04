@@ -67,4 +67,4 @@ sudo apt install apparmor-profiles apparmor-utils apparmor-profiles-extra
 ![image](https://github.com/denniskostyuk/hostprotection/blob/main/task-35.png)   
 
 После этого повторяем эксперимент из лекции:  
-![image](https://github.com/denniskostyuk/hostprotection/blob/main/task-36.png) 
+![image](https://github.com/denniskostyuk/hostprotection/blob/main/task-37.png) 
