@@ -49,3 +49,15 @@
 
 Делаем копию man, потом ping с переименованием в man копируем на место man и убеждаемся, что теперь man работает как ping:  
 ![image](https://github.com/denniskostyuk/hostprotection/blob/main/task-31.png)
+
+Далее устанавливаем AppArmor:  
+sudo apt install apparmor-profiles apparmor-utils apparmor-profiles-extra  
+
+Смотрим статус:  
+![image](https://github.com/denniskostyuk/hostprotection/blob/main/task-32.png)  
+
+И видим, что загружено 70 профилей, среди которых нет профиля man.  
+В этом также можно убедиться, попытавшись перевести профиль man в режим enforce и получив ошибку:  
+![image](https://github.com/denniskostyuk/hostprotection/blob/main/task-33.png) 
+
+После установки, копируем профайл man в 
