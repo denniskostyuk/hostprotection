@@ -58,9 +58,10 @@ sudo apt install apparmor-profiles apparmor-utils apparmor-profiles-extra
 
 И видим, что загружено 70 профилей, среди которых нет профиля man.  
 В этом также можно убедиться, попытавшись перевести профиль man в режим enforce и получив ошибку:  
-![image](https://github.com/denniskostyuk/hostprotection/blob/main/task-33.png) 
+![image](https://github.com/denniskostyuk/hostprotection/blob/main/task-33.png)   
 
-При этом в пакете apparmor-profiles-extra профиль man присутствует:
-![image](https://github.com/denniskostyuk/hostprotection/blob/main/task-34.png)
+При этом в пакете apparmor-profiles-extra профиль man присутствует:  
+![image](https://github.com/denniskostyuk/hostprotection/blob/main/task-34.png)  
 
-После установки, копируем профайл man в 
+Поэтому копируем профиль man в /etc/apparmor.d/  
+![image](https://github.com/denniskostyuk/hostprotection/blob/main/task-35.png)   
