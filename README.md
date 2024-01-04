@@ -60,4 +60,7 @@ sudo apt install apparmor-profiles apparmor-utils apparmor-profiles-extra
 В этом также можно убедиться, попытавшись перевести профиль man в режим enforce и получив ошибку:  
 ![image](https://github.com/denniskostyuk/hostprotection/blob/main/task-33.png) 
 
+При этом в пакете apparmor-profiles-extra профиль man присутствует:
+![image](https://github.com/denniskostyuk/hostprotection/blob/main/task-34.png)
+
 После установки, копируем профайл man в 
